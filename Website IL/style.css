@@ -1,0 +1,182 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 50pt;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 28pt;
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+}
+section{
+    min-height: 100%;
+}
+/*general div*/
+.spacedikit{
+    padding-top: 1rem;
+}
+.space{
+    padding-top: 3rem;
+}
+.space2{
+    padding-top: 8rem;
+}
+.spacebawahjauh{
+    padding-bottom: 10rem;
+}
+.fixed{
+    position: fixed;
+}
+.inline{
+    display: inline-block;
+}
+
+/*copiret*/
+.copyright{
+    color: #ffffff;
+    mix-blend-mode: difference;
+    font-size: 12px;
+    opacity: 75%;
+    transform: rotate(270deg);
+    right: -70px;
+    bottom: 15%;
+}
+/*Navigasi*/
+.navlinks{
+    padding-top: 20px;
+    
+}
+.navlinks a{
+    color: #dadada;
+    text-decoration: none;
+    transition: 200ms;
+    font-size: 18px;
+    margin: 0pt 10px;
+}
+.navlinks a:hover{
+    color: #ffffff;
+}
+.navimg{
+    width: 45px;
+    position: relative;
+    float: right;
+    margin: 0px 10px;
+    mix-blend-mode: color-dodge;
+}
+
+/*home*/
+.bghome{
+    background: url("Homebg-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 250px;
+}
+/*About*/
+.about{
+    background-image: url("bg-01.png");
+    background-attachment: fixed;
+    color: #665137;
+}
+.about h1{
+    text-align: center;
+}
+
+.fullscreenbg{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#fullscreenbg1{
+    height: 400px;
+    background-image: url(klepon1.jpg);
+}
+/*Menu*/
+.menu{
+    color: #FFF5DB;
+    background-image: url("bg-02.png");
+    background-attachment: fixed;
+}
+.menu hr{
+    border-top: 1px solid #FFF5DB;
+    opacity: 100%;
+}
+.paddingmenu{
+    padding: 0px 20px;
+}
+
+/*form*/
+.form{
+    background-image: url(homebg-01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFF5DB;
+    display: flex;
+}
+.form label{
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    left: 20%;
+}
+::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form h1{
+    text-align: center;
+}
+input{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+textarea{
+    width: 60%;
+    vertical-align: text-top;
+    line-height: normal;
+    position: relative;
+    left: 20%;
+}
+input.submit{
+    width: fit-content;
+}
+
+/*review*/
+.repiu{
+    background-image: url("bg-01.png");
+    background-attachment: fixed;
+    color: #665137;
+}
+.repiu img{
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #665137;
+}
+.repiu .row{
+    padding-top: 40px;
+}
